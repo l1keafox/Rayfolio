@@ -1,9 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
 
-header footer {
+header, footer {
     background-color: aqua;
+}
+nav {
+    background-color: rgb(221, 54, 54);
 }
