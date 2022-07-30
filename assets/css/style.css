@@ -57,6 +57,7 @@ Class Elements
 }
 
 .oneProject{
+    display: flex;;
     background-color: gainsboro;
     border: 10px solid blue;
 }
