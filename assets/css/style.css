@@ -11,33 +11,18 @@ header, footer {
     padding: 0;
     margin: 0;
 }
-nav {
-    background-color: rgb(221, 54, 54);
+
+.navBar {
+  display: flex;
+  background-color: #d8a47f;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  nav  li {
-    float: left;
-  }
-  
-  nav  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav  li a:hover {
-    background-color: #111;
-  }
+.navBar a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
 
   #contacts{
     display: flex;
@@ -76,9 +61,9 @@ Id elements
 }
 
 
-@media screen and (max-width:768){
-    nav {
-        flex-direction: column;
-        background-color: rgb(221, 54, 54);
-    }
+@media screen and (max-width:768px){
+  nav {
+    flex-direction: column;
+    background-color: rgb(221, 54, 54);
+}
 }
