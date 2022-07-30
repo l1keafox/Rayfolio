@@ -47,13 +47,22 @@ Class Elements
 .aboutMe{
     background-color: yellow;
 }
-.projects{
+
+.showProjects{
     background-color: yellow;
 }
 .contacts{
     background-color: yellow;
 }
 
+.oneProject{
+    background-color: gainsboro;
+    border: 10px solid blue;
+}
+
+.oneProject img{
+    height: 150px;
+}
 
 /*
 Id elements
