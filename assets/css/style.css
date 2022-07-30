@@ -12,6 +12,7 @@ header, footer {
 }
 nav {
     background-color: rgb(221, 54, 54);
+    display: flex;
 }
 
 nav ul {
@@ -60,7 +61,7 @@ Class Elements
     border: 10px solid blue;
 }
 
-.oneProject img{
+.oneProject a img{
     height: 150px;
 }
 
