@@ -7,18 +7,22 @@ Universal Elements
 
 header, footer {
     display: flex;
-    background-color: aqua;
+    background-color: #08D9D6;
     padding: 0;
     margin: 0;
 }
 
+footer {
+  background-color: #252A34;
+}
+
 .navBar {
   display: flex;
-  background-color: #d8a47f;
+  background-color: #252A34;
 }
 
 .navBar a {
-  color: #13293d;
+  color: #EAEAEA;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -31,22 +35,22 @@ header, footer {
 Class Elements
 */
 #aboutMe{
-    background-color: yellow;
+    background-color: #FF2E63;
 }
 
 #showProjects{
-    background-color: yellow;
+    background-color:#FF2E63;
 }
 .contacts{
-    background-color: yellow;
+    background-color: #FF2E63;
 }
 
 .oneProject{
     display: flex;
 
-    background-color: gainsboro;
-    border: 10px solid blue;
-    padding: 5px;
+    background-color: EAEAEA;
+    border: 10px solid #EAEAEA;
+    padding: 5px 0;
 }
 
 .oneProject a img{
