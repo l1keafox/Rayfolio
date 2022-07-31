@@ -57,19 +57,28 @@ Class Elements
 
 .oneProject{
     display: flex;
-    flex-direction: column;
+/*    flex-direction: column;*/
     align-content: center;
     background-color: #EAEAEA;
     border: 10px solid #dd0707;
     height: 300px;
-    width: 100%;
+    width: 300px;
 }
+
+#firstProject{
+  height: 600px;
+  width: 600px;
+}
+
 .oneProject h2{
   justify-content: center;
 }
+.oneProject img{
+
+}
   
 a .oneProject img{
-    height: 150px;
+    height: 100%;
     border: 5px solid white;
   /*  margin-left: 10px;*/
 }
@@ -103,8 +112,8 @@ Id elements
 
 #showProjects{
   background-color:#FF2E63;
-/*  flex-wrap: wrap;
-  flex-direction:row*/
+  flex-wrap: wrap;
+  /*flex-direction:row*/
 }
 
 
