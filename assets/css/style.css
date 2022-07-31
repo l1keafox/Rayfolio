@@ -2,8 +2,8 @@
 Universal Elements
 */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 header, footer {
     display: flex;
@@ -35,44 +35,42 @@ section {
   margin-top: 20px;
 }
 section h1 {
-  background-color: #174db9;
-  margin-right: 5%;
+/*  background-color: #174db9;*/
+  /*margin-right: 5%; */
 }
 section article {
-  background-color: #14bd3e;
-  margin-right: 5%;
-}
-section img {
-  background-color: #b47234;
-  margin-right: 5%;
+  position: relative;
+  margin-left: 5%;
+ /* background-color: #14bd3e;*/
 }
 /*
 Class Elements
 */
-.contacts{
+#contacts{
+    display: flex;  
     background-color: #FF2E63;
 }
 
 .oneProject{
     display: flex;
-
-    background-color: EAEAEA;
-    border: 10px solid #EAEAEA;
-    padding: 5px 0;
+    background-color: #EAEAEA;
+    border: 10px solid #dd0707;
+    height: 300px;
+    width: 100%;
 }
-
+  
 .oneProject a img{
     height: 150px;
     border: 5px solid white;
-    margin-left: 10px;
+  /*  margin-left: 10px;*/
 }
 
 .oneProject h2{
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 
 .oneProject p{
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 /*
 Id elements
@@ -82,11 +80,9 @@ Id elements
   width: 100px;
 }
 
+
 #bannerImage{
     width: 100%;
-}
-#contacts{
-  display: flex;
 }
 #aboutMe{
   background-color: #FF2E63;
@@ -94,6 +90,8 @@ Id elements
 
 #showProjects{
   background-color:#FF2E63;
+/*  flex-wrap: wrap;
+  flex-direction:row*/
 }
 
 
@@ -101,5 +99,8 @@ Id elements
   nav {
     flex-direction: column;
     background-color: rgb(221, 54, 54);
-}
+  }
+  #showProjects article{
+    flex-direction: column;
+  }
 }
