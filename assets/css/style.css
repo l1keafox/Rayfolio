@@ -3,6 +3,7 @@ Universal Elements
 */
 * {
   box-sizing: border-box;
+  font-family: 'Cormorant Upright', serif;
 }
 
 header, footer {
@@ -29,6 +30,9 @@ footer {
   text-align: center;
 }
 
+h1{
+  margin-left: 5px;
+}
 
 section {
   display: flex;
@@ -53,13 +57,18 @@ Class Elements
 
 .oneProject{
     display: flex;
+    flex-direction: column;
+    align-content: center;
     background-color: #EAEAEA;
     border: 10px solid #dd0707;
     height: 300px;
     width: 100%;
 }
+.oneProject h2{
+  justify-content: center;
+}
   
-.oneProject a img{
+a .oneProject img{
     height: 150px;
     border: 5px solid white;
   /*  margin-left: 10px;*/
@@ -86,6 +95,10 @@ Id elements
 }
 #aboutMe{
   background-color: #FF2E63;
+}
+#aboutMe article{
+  display: flex;
+  flex-direction: column;
 }
 
 #showProjects{
