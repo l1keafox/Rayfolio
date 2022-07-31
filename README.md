@@ -1,4 +1,4 @@
-# Rayfolio
+# Raymond Lewis's Portfolio 
 
 <a href="https://l1keafox.github.io/Rayfolio" target="no_blank">Click here for My portfolio home website</a> 
 
@@ -6,7 +6,8 @@
 
 ## Description
 
-My portfolio of projects made in bootcamp.
+
+My homepage for more info about me, projects and contacts.
 
 
 ---

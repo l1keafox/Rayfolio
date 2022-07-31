@@ -55,8 +55,17 @@ Class Elements
 
 .oneProject a img{
     height: 150px;
+    border: 5px solid white;
+    margin-left: 10px;
 }
 
+.oneProject h2{
+  margin-left: 10px;
+}
+
+.oneProject p{
+  margin-left: 10px;
+}
 /*
 Id elements
 */
