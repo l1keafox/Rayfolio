@@ -8,7 +8,7 @@ Universal Elements
 
 header, footer {
     display: flex;
-    background-color: #08D9D6;
+    background-color: #F15412;
     padding: 0;
     margin: 0;
 }
@@ -20,11 +20,11 @@ footer {
 
 .navBar {
   display: flex;
-  background-color: #252A34;
+  background-color: #000000;
 }
 
 .navBar a {
-  color: #EAEAEA;
+  color: #EEEEEE;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -52,35 +52,34 @@ Class Elements
 */
 #contacts{
     display: flex;  
-    background-color: #FF2E63;
+    background-color: #EEEEEE;
 }
 
 .oneProject{
     display: flex;
-/*    flex-direction: column;*/
     align-content: center;
-    background-color: #EAEAEA;
-    border: 10px solid #dd0707;
-    height: 300px;
-    width: 300px;
+    background-color: #EEEEEE;
+    border: 10px solid #0f0d0d;
 }
 
 #firstProject{
   height: 600px;
-  width: 600px;
 }
 
 .oneProject h2{
-  justify-content: center;
-}
-.oneProject img{
-
+  align-self: baseline;
 }
   
-a .oneProject img{
+.oneProject img{
     height: 100%;
-    border: 5px solid white;
-  /*  margin-left: 10px;*/
+    border: 5px solid #EEEEEE;
+    margin-left: 10px;
+    left:-10px;
+}
+.oneProject h2{
+  border: 5px solid #EEEEEE;
+  background-color: #EEEEEE;
+  
 }
 
 .oneProject h2{
@@ -103,7 +102,7 @@ Id elements
     width: 100%;
 }
 #aboutMe{
-  background-color: #FF2E63;
+  background-color: #34B3F1;
 }
 #aboutMe article{
   display: flex;
@@ -111,7 +110,7 @@ Id elements
 }
 
 #showProjects{
-  background-color:#FF2E63;
+  background-color:#34B3F1;
   flex-wrap: wrap;
   /*flex-direction:row*/
 }
