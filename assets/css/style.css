@@ -62,10 +62,6 @@ Class Elements
     border: 10px solid #0f0d0d;
 }
 
-#firstProject{
-  height: 600px;
-}
-
 .oneProject h2{
   align-self: baseline;
 }
@@ -92,6 +88,10 @@ Class Elements
 /*
 Id elements
 */
+#firstProject{
+  height: 600px;
+}
+
 #avatar{
   display: flex;
   width: 100px;
