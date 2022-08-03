@@ -9,7 +9,7 @@ Universal Elements
 header, footer {
     display: flex;
     background-color: #F15412;
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
 
@@ -18,20 +18,9 @@ footer {
   margin-top: 20px;
 }
 
-.navBar {
-  display: flex;
-  background-color: #000000;
-}
-
-.navBar a {
-  color: #EEEEEE;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
 h1{
-  margin-left: 5px;
+  padding: 10px;
+  height: 32px;
 }
 
 section {
@@ -43,47 +32,21 @@ section h1 {
   /*margin-right: 5%; */
 }
 section article {
-  position: relative;
-  margin-left: 5%;
  /* background-color: #14bd3e;*/
 }
 /*
 Class Elements
 */
-#contacts{
-    display: flex;  
-    background-color: #EEEEEE;
+.navBar {
+  display: flex;
+  background-color: #000000;
 }
 
-.oneProject{
-    display: flex;
-    align-content: center;
-    background-color: #EEEEEE;
-    border: 10px solid #0f0d0d;
-}
-
-.oneProject h2{
-  align-self: baseline;
-}
-  
-.oneProject img{
-    height: 100%;
-    border: 5px solid #EEEEEE;
-    margin-left: 10px;
-    left:-10px;
-}
-.oneProject h2{
-  border: 5px solid #EEEEEE;
-  background-color: #EEEEEE;
-  
-}
-
-.oneProject h2{
-  /*margin-left: 10px;*/
-}
-
-.oneProject p{
-  /*margin-left: 10px;*/
+.navBar a {
+  color: #EEEEEE;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
 }
 .card{
   background-color: #F15412;
@@ -95,29 +58,23 @@ Class Elements
 }
 .card img {
   width: 100%;
-  
 }
 /*
 Id elements
-#firstProject{
-}
 */
-#firstProject{
-  height: 480px;
-  width: 600px;
-}
 
+#bannerImage{
+  width: 100%;
+}
 #avatar{
   display: flex;
   width: 100px;
 }
-
-
-#bannerImage{
-    width: 100%;
-}
 #aboutMe{
   background-color: #34B3F1;
+  border: 2px solid black;
+  padding: 3px;
+  left:10px;
 }
 #aboutMe article{
   display: flex;
@@ -125,10 +82,24 @@ Id elements
 }
 
 #showProjects{
+  display: flex;
   background-color:#34B3F1;
-  flex-wrap: wrap;
+  background-color: #34B3F1;
+  border: 2px solid black;
+  padding: 3px;
+
   /*flex-direction:row*/
 }
+#firstProject{
+  height: 480px;
+  width: 600px; 
+  flex: 0 0 480px;
+}
+#contacts{
+  display: flex;  
+  flex-direction: column;
+}
+
 
 
 @media screen and (max-width:768px){
