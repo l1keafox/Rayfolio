@@ -70,15 +70,15 @@ Id elements
   display: flex;
   width: 100px;
 }
-#aboutMe{
+#aboutMe {
+  display: flex;
+}
+#aboutMe article{
   background-color: #34B3F1;
   border: 2px solid black;
   padding: 3px;
   left:10px;
-}
-#aboutMe article{
   display: flex;
-  flex-direction: column;
 }
 
 #showProjects{
