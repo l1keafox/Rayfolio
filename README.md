@@ -13,16 +13,14 @@ My homepage that has my projects to showcase and contact information.
 6.  [License](#License)
 
 ## Usage 
-Go to website
+* <a href="https://l1keafox.github.io/Rayfolio/"> Click here for deployment </a> 
 
-
-![Website](/assets/images/projectOne.PNG)
+![Website](/assets/images/readMe.PNG)
 
 ## Installation 
 No install.
 
 
-* <a href="https://l1keafox.github.io/Raymond Lewis's Portfolio/"> Click here for deployment </a> 
 
 ## Contributing 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
