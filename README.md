@@ -15,7 +15,7 @@ My homepage that has my projects to showcase and contact information.
 ## Usage 
 * <a href="https://l1keafox.github.io/Rayfolio/"> Click here for deployment </a> 
 
-![Website](/assets/images/readMe.PNG)
+![Website](/assets/images/readme.PNG)
 
 ## Installation 
 No install.
