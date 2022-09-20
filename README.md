@@ -3,7 +3,7 @@
 
 My homepage that has my projects to showcase and contact information.
 
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Table of Contents 
 1.  [Usage](#Usage)
 2.  [Installation](#Installation)
